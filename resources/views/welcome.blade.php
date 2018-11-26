@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    indio weco aguante el bulla wena xoro
+                    Proyecto Software 2k18.
                 </div>
 
                 <div class="links">
