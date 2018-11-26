@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    indio weco aguante el bulla
+                    indio weco aguante el bulla wena xoro
                 </div>
 
                 <div class="links">
