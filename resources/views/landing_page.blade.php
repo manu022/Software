@@ -70,7 +70,10 @@
             <!--<p class="small">
                 Lorem Ipsum is simply dummy text of the printing and tLorem Ipsum is  Lorem Ipsum is simply dummy of the simply dummy text of the ypesetting.
             </p>-->
-            <p></p>
+            <br>
+            <br>
+            <br>
+            <br>
             <a href="#" class="btn btn-success btn-sm">Learn more</a>
         </div>
         <!--<div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
