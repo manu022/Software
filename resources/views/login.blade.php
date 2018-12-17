@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>HOMER | WebApp admin theme</title>
+    <title>Priotelus | Login</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -27,7 +27,7 @@
 <body class="blank">
 
 <!-- Simple splash screen-->
-<div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>Homer - Responsive Admin Theme</h1><p>Special Admin Theme for small and medium webapp with very clean and aesthetic style and feel. </p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
+<div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>Priotelus - Login </h1><p>Special Admin Theme for small and medium webapp with very clean and aesthetic style and feel. </p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
 <!--[if lt IE 7]>
 <p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -35,36 +35,36 @@
 <div class="color-line"></div>
 
 <div class="back-link">
-    <a href="/home" class="btn btn-primary">Back to Dashboard</a>
+    <a href="/home" class="btn btn-primary">Volver</a>
 </div>
 
 <div class="login-container">
     <div class="row">
         <div class="col-md-12">
             <div class="text-center m-b-md">
-                <h3>PLEASE LOGIN TO APP</h3>
-                <small>This is the best app ever!</small>
+                <h3>POR FAVOR INICIE SESIÓN</h3>
+                <small>¡La mejor aplicación del mundo!</small>
             </div>
             <div class="hpanel">
                 <div class="panel-body">
                         <form action="#" id="loginForm">
                             <div class="form-group">
-                                <label class="control-label" for="username">Username</label>
-                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
-                                <span class="help-block small">Your unique username to app</span>
+                                <label class="control-label" for="username">Usuario</label>
+                                <input type="text" placeholder="ejemplo@gmail.com" title="Por favor ingresa tu usuario" required="" value="" name="username" id="username" class="form-control">
+                                <span class="help-block small">Tu credencial única de la aplicación</span>
                             </div>
                             <div class="form-group">
-                                <label class="control-label" for="password">Password</label>
-                                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
-                                <span class="help-block small">Yur strong password</span>
+                                <label class="control-label" for="password">Contraseña</label>
+                                <input type="password" title="Por favor ingresa tu contraseña" placeholder="******" required="" value="" name="password" id="password" class="form-control">
+                                <span class="help-block small">Tu contraseña segura</span>
                             </div>
                             <div class="checkbox">
                                 <input type="checkbox" class="i-checks" checked>
-                                     Remember login
-                                <p class="help-block small">(if this is a private computer)</p>
+                                     Recuérdame
+                                <p class="help-block small">(Solo si es una computadora personal*)</p>
                             </div>
-                            <button class="btn btn-success btn-block">Login</button>
-                            <a class="btn btn-default btn-block" href="#">Register</a>
+                            <button class="btn btn-success btn-block">Iniciar sesión</button>
+                            <a class="btn btn-default btn-block" href="register">Registrarse</a>
                         </form>
                 </div>
             </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <strong>HOMER</strong> - AngularJS Responsive WebApp <br/> 2015 Copyright Company Name
+            <strong>Priotelus</strong> - AngularJS Responsive WebApp <br/> 2015 Copyright Company Name
         </div>
     </div>
 </div>
