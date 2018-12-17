@@ -43,7 +43,7 @@
             </button>
             <a href="index.html" class="navbar-brand">HOMER</a>
             <div class="brand-desc">
-                Landing page for Homer app
+                Gestor de curriculum para imigrantes
             </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">

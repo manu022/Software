@@ -971,7 +971,7 @@ body.blank {
   color: #9b59b6;
 }
 .btn-success.btn-outline {
-  color: #62cb31;
+  color: #1165fa;
 }
 .btn-info.btn-outline {
   color: #3498db;
@@ -1070,8 +1070,8 @@ fieldset[disabled] .btn-primary2.active {
   border-color: #8c49a7;
 }
 .btn-success {
-  background-color: #62cb31;
-  border-color: #62cb31;
+  background-color: #1165fa;
+  border-color: #1165fa;
   color: #FFFFFF ;
 }
 .btn-success:hover,
@@ -3503,12 +3503,12 @@ ul.h-list li:hover a {
   border-radius: 5px;
   color: #fff;
   display: block;
-  background-color: #62cb31;
+  background-color: #1165fa;
   margin-left: 0;
 }
 .landing-page .navbar-default .navbar-toggle:hover,
 .landing-page .navbar-default .navbar-toggle:focus {
-  background: #62cb31;
+  background: #1165fa;
 }
 .landing-page .navbar-default .navbar-toggle:hover .icon-bar,
 .landing-page .navbar-default .navbar-toggle:focus .icon-bar {
@@ -3518,7 +3518,7 @@ ul.h-list li:hover a {
 .landing-page .navbar-default .navbar-nav > .active > a:hover,
 .landing-page .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #62cb31;
+  color: #1165fa;
   border: none;
 }
 .landing-page .navbar-default li a:hover {
