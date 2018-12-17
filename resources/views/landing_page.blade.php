@@ -67,7 +67,7 @@
             <h1>
                 Proyecto Software Inmigración
             </h1>
-            <span>Profe ponganos un 7 por favor se lo rogamos</span>
+            <span>Sistema de gestión de empleo para inmigrantes</span>
             <!--<p class="small">
                 Lorem Ipsum is simply dummy text of the printing and tLorem Ipsum is  Lorem Ipsum is simply dummy of the simply dummy text of the ypesetting.
             </p>-->
