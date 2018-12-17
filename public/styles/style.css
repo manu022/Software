@@ -3526,7 +3526,7 @@ ul.h-list li:hover a {
 }
 .landing-page .brand-desc {
   color: #455463;
-  margin: 17px 10px 0 90px;
+  margin: 10px 10px 0 90px;
   width: 180px;
 }
 .landing-page .navbar-nav > li > a {
@@ -3557,6 +3557,8 @@ ul.h-list li:hover a {
 }
 .landing-page header .container {
   position: relative;
+  text-align: center;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 .landing-page .heading {
   margin-top: 60px;
@@ -3567,6 +3569,8 @@ ul.h-list li:hover a {
   font-size: 34px;
   margin-bottom: 5px;
   letter-spacing: -0.5px;
+  text-align: center;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 .landing-page h4 {
   font-weight: 600;
@@ -3582,6 +3586,8 @@ ul.h-list li:hover a {
   margin-top: 10px;
   color: #a7afb8;
   max-width: 260px;
+
+
 }
 .landing-page .heading-image {
   position: absolute;
@@ -3677,6 +3683,7 @@ ul.h-list li:hover a {
   }
   .landing-page .heading p.small {
     margin: 10px auto;
+
   }
   .landing-page .brand-desc {
     display: none;

@@ -41,7 +41,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.html" class="navbar-brand">HOMER</a>
+            <a href="index.html" class="navbar-brand">Priotelus</a>
             <div class="brand-desc">
                 Gestor de curriculum para imigrantes
             </div>
@@ -64,15 +64,16 @@
     <div class="container">
         <div class="heading">
             <h1>
-                Proyecto Software Super 8
+                Proyecto Software Inmigración
             </h1>
-            <span>Contrary to popular belief, Lorem Ipsum is not<br/> simply random text for print.</span>
-            <p class="small">
+            <span>Profe ponganos un 7 por favor se lo rogamos</span>
+            <!--<p class="small">
                 Lorem Ipsum is simply dummy text of the printing and tLorem Ipsum is  Lorem Ipsum is simply dummy of the simply dummy text of the ypesetting.
-            </p>
+            </p>-->
+            <p></p>
             <a href="#" class="btn btn-success btn-sm">Learn more</a>
         </div>
-        <div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
+        <!--<div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
             <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             <img class="img-animate" src="images/landing/c1.jpg">
             <img class="img-animate" src="images/landing/c2.jpg">
@@ -83,7 +84,7 @@
             <img class="img-animate" src="images/landing/c6.jpg">
             <img class="img-animate" src="images/landing/c7.jpg">
             <img class="img-animate" src="images/landing/c8.jpg">
-        </div>
+        </div>-->
     </div>
 </header>
 <section>
