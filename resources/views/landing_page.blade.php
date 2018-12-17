@@ -41,20 +41,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.html" class="navbar-brand">Priotelus</a>
+            <a href="#" class="navbar-brand">Priotelus</a>
             <div class="brand-desc">
                 Gestor de curriculum para imigrantes
             </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a class="page-scroll" href="#page-top">Home</a></li>
-                <li><a class="page-scroll" page-scroll href="#components">UI</a></li>
-                <li><a class="page-scroll" page-scroll href="#features">Features</a></li>
-                <li><a class="page-scroll" page-scroll href="#team">Team</a></li>
-                <li><a class="page-scroll" page-scroll href="#pricing">Pricing </a></li>
-                <li><a class="page-scroll" page-scroll href="#clients">Clients </a></li>
-                <li><a class="page-scroll" page-scroll href="#contact">Contact</a></li>
+                <li class="active"><a class="page-scroll" href="#page-top">Inicio</a></li>
+                <li><a class="page-scroll" page-scroll href="#components">Ofertas</a></li>
+                <li><a class="page-scroll" page-scroll href="#features">Eventos</a></li>
+                <li><a class="page-scroll" page-scroll href="#team">Equipo</a></li>
+                <li><a class="page-scroll" page-scroll href="#pricing">Información </a></li>
+                <li><a class="page-scroll" page-scroll href="#clients">Nuestros usuarios</a></li>
+                <li><a class="page-scroll" page-scroll href="#contact">Contáctanos</a></li>
                 <li><a href="login" class="btn">Login</a></li>
             </ul>
         </div>
@@ -95,18 +95,18 @@
     <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <h4>HTML5 & CSS3</h4>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+            <h4>Contenido</h4>
+            <p>Aquí va contenido blablablablablablabla.</p>
             <p><a class="navy-link btn btn-sm" href="#" role="button">Learn more</a></p>
         </div>
         <div class="col-md-4">
-            <h4>Staggering Animations</h4>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of.</p>
+            <h4>Contenido</h4>
+            <p>Aquí va contenido blablablablablablabla.</p>
             <p><a class="navy-link btn btn-sm" href="#" role="button">Learn more</a></p>
         </div>
         <div class="col-md-4">
-            <h4>Unique Dashboard</h4>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <h4>Contenido</h4>
+            <p>Aquí va contenido blablablablablablabla.</p>
             <p><a class="navy-link btn btn-sm" href="#" role="button">Learn more</a></p>
         </div>
     </div>
@@ -117,44 +117,48 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2><span class="text-success">UI components </span>for your app</h2>
+                <h2><span class="text-success">Ultimas ofertas</span> de trabajo</h2>
                 <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
         <div class="row m-t-md">
             <div class="col-md-6">
-                <h4 class="m-t-xxxl">Special contacts view</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+                <h4 class="m-t-xxxl">Contenido</h4>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-6">
-                <img src="images/landing/s2.png" class="img-responsive">
+                <h2>[IMAGEN]</h2>
+                <!--<img src="images/landing/s2.png" class="img-responsive">-->
             </div>
         </div>
         <div class="row m-t-xl">
             <div class="col-md-6">
-                <img src="images/landing/s4.png" class="img-responsive">
+                <h2>[IMAGEN]</h2>
+                <!--<img src="images/landing/s4.png" class="img-responsive">-->
             </div>
             <div class="col-md-6">
-                <h4 class="m-t-xxl">Additional analytical components</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+                <h4 class="m-t-xxl">Contenido</h4>
+                <p>Blablablablablablablabla.</p>
             </div>
         </div>
         <div class="row  m-t-xl">
             <div class="col-md-6">
-                <h4 class="m-t-xxl">Special designed project view</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+                <h4 class="m-t-xxl">Contenido</h4>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-6">
-                <img src="images/landing/s1.png" class="img-responsive">
+                <h2>[IMAGEN]</h2>
+                <!--<img src="images/landing/s1.png" class="img-responsive">-->
             </div>
         </div>
         <div class="row m-t-xl">
             <div class="col-md-6">
-                <img src="images/landing/s3.png" class="img-responsive">
+                <h2>[IMAGEN]</h2>
+                <!--<img src="images/landing/s3.png" class="img-responsive">-->
             </div>
             <div class="col-md-6">
-                <h4 class="m-t-xxl">Many widets components</h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+                <h4 class="m-t-xxl">Contenido</h4>
+                <p>Blablablablablablablabla.</p>
             </div>
         </div>
     </div>
@@ -164,33 +168,33 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
-                <h2><span class="text-success">Many features to </span>discover with Homer</h2>
+                <h2><span class="text-success">Contenido</span></h2>
                 <p>
-                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes.
+                    Blablablablablablablabla.
                 </p>
             </div>
         </div>
         <div class="row m-t-lg">
             <div class="col-md-4 col-md-offset-2">
-                <strong>Donec sed odio dui.</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <strong>Contenido</strong>
+                <p>Blablablablablablablabla.</p>
                 <a class="btn btn-success btn-sm">Learn more</a>
             </div>
             <div class="col-md-4">
-                <strong>Lorem Ipsum as their.</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <strong>Contenido</strong>
+                <p>Blablablablablablablabla.</p>
                 <a class="btn btn-success btn-sm">Learn more</a>
             </div>
         </div>
         <div class="row m-t-lg">
             <div class="col-md-4 col-md-offset-2">
-                <strong>Donec sed odio dui.</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <strong>Contenido</strong>
+                <p>Blablablablablablablabla.</p>
                 <a class="btn btn-success btn-sm">Learn more</a>
             </div>
             <div class="col-md-4">
-                <strong>Lorem Ipsum as their.</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+                <strong>Contenido</strong>
+                <p>Blablablablablablablabla.</p>
                 <a class="btn btn-success btn-sm">Learn more</a>
             </div>
         </div>
@@ -201,52 +205,52 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-12">
-                <h2><span class="text-success">Special icons </span>for your app</h2>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
+                <h2><span class="text-success">AQUÍ VA</span>CONTENIDO</h2>
+                <p>xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD. </p>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-airplay text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-science text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-display1 text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-cloud-upload text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-global text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-battery text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-users text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
             <div class="col-md-3">
                 <h4 class="m-t-lg"><i class="pe-7s-ticket text-success icon-big"></i></h4>
-                <strong>Lorem Ipsum available</strong>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <strong>CONTENIDO</strong>
+                <p>Blablablablablablablabla.</p>
             </div>
         </div>
 
@@ -257,7 +261,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Our team </span>support you</h2>
+                <h2><span class="text-success">Nuestro equipo </span>te apoya.</h2>
                 <p>
                     Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes.
                 </p>
@@ -325,13 +329,13 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-12">
-                <h2><span class="text-success">Best pricing </span>for your app</h2>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
+                <h2><span class="text-success">Información </span>relevante.</h2>
+                <p>Blablablablablablablabla.</p>
             </div>
         </div>
 
         <div class="row m-t-lg">
-            <div class="col-lg-3">
+            <!--<div class="col-lg-3">
                 <ul class="pricing-plan list-unstyled">
                     <li class="pricing-title">
                         Basic
@@ -456,7 +460,7 @@
                     <li>
                         <a class="btn btn-primary btn-sm" href="#">Signup today</a>
                     </li>
-                </ul>
+                </ul>-->
             </div>
         </div>
 
@@ -466,7 +470,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Our best</span> clients</h2>
+                <h2><span class="text-success">Nuestros</span> usuarios</h2>
                 <p>
                     Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes.
                 </p>
