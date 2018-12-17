@@ -55,6 +55,7 @@
                 <li><a class="page-scroll" page-scroll href="#pricing">Pricing </a></li>
                 <li><a class="page-scroll" page-scroll href="#clients">Clients </a></li>
                 <li><a class="page-scroll" page-scroll href="#contact">Contact</a></li>
+                <li><a href="login" class="btn">Login</a></li>
             </ul>
         </div>
     </div>
