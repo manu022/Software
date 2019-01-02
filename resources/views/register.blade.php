@@ -40,41 +40,45 @@
     <div class="row">
         <div class="col-md-12">
             <div class="text-center m-b-md">
-                <h3>Registration</h3>
-                <small>Full suported AngularJS WebApp/Admin template with very clean and aesthetic style prepared for your next app. </small>
+                <h3>Registro</h3>
+                <small>Por favor, llena los siguientes campos para registrarte </small>
             </div>
             <div class="hpanel">
                 <div class="panel-body">
                         <form action="#" id="loginForm">
                             <div class="row">
                             <div class="form-group col-lg-12">
-                                <label>Username</label>
+                                <label>Nombre de usuario</label>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Password</label>
-                                <input type="password" value="" id="" class="form-control" name="">
-                            </div>
-                            <div class="form-group col-lg-6">
-                                <label>Repeat Password</label>
-                                <input type="password" value="" id="" class="form-control" name="">
-                            </div>
-                            <div class="form-group col-lg-6">
-                                <label>Email Address</label>
+                                <label>Rut</label>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Repeat Email Address</label>
+                                <label>Contraseña</label>
+                                <input type="password" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Repetir Contraseña</label>
+                                <input type="password" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Dirección de Correo Electronico</label>
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Repetir Dirección de Correo Electronico</label>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="checkbox col-lg-12">
                                 <input type="checkbox" class="i-checks" checked>
-                                Sigh up for our newsletter
+                                Marcar para recibir noticias
                             </div>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-success">Register</button>
-                                <button class="btn btn-default">Cancel</button>
+                                <button class="btn btn-success">Registrarse</button>
+                                <button class="btn btn-default">Cancelar</button>
                             </div>
                         </form>
                 </div>
@@ -83,7 +87,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <strong>HOMER</strong> - AngularJS Responsive WebApp <br/> 2015 Copyright Company Name
+            <strong>HOMER</strong> - AngularJS Responsive WebApp <br/> 2018 Copyright Prioutelus
         </div>
     </div>
 </div>
