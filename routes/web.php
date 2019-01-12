@@ -26,3 +26,7 @@ Route::get('/login', function () {
 Route::get('/register', function() {
 	return view('register');
 });
+
+Route::get('/registro_empresa', function() {
+  return view('registro_empresa');
+});

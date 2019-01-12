@@ -64,7 +64,8 @@
                                 <p class="help-block small">(Solo si es una computadora personal*)</p>
                             </div>
                             <button class="btn btn-success btn-block">Iniciar sesión</button>
-                            <a class="btn btn-default btn-block" href="register">Registrarse</a>
+                            <a class="btn btn-default btn-block" href="register">Registrarse como usuario</a>
+                            <a class="btn btn-default btn-block" href="registro_empresa">Registrarse como empresa</a>
                         </form>
                 </div>
             </div>

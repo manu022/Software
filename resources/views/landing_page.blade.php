@@ -55,7 +55,7 @@
                 <li><a class="page-scroll" page-scroll href="#pricing">Información </a></li>
                 <li><a class="page-scroll" page-scroll href="#clients">Nuestros usuarios</a></li>
                 <li><a class="page-scroll" page-scroll href="#contact">Contáctanos</a></li>
-                <li><a href="login" class="btn">Login</a></li>
+                <li><a href="login" class="btn">Iniciar Sesión</a></li>
             </ul>
         </div>
     </div>
@@ -263,7 +263,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <h2><span class="text-success">Nuestro equipo </span>te apoya.</h2>
                 <p>
-                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes.
+                    Somos uno equipo compuesto por cuatro integrantes dedicados a mejorar la situación laboral de los inmigrantes Haitianos en Chile
                 </p>
             </div>
         </div>
@@ -271,25 +271,25 @@
         <div class="row m-t-lg text-center">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/a2.jpg" class="img-circle img-small" alt="">
-                    <h4><span>User</span> name</h4>
+                    <img src="images/manu.png" class="img-circle img-small" alt="">
+                    <h4><span>Manuel</span> Grandón</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
 
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/a5.jpg" class="img-circle" alt="">
-                    <h4><span>User</span> name</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
+                    <img src="images/camilo.png" class="img-circle" alt="">
+                    <h4><span>Camilo</span> Monares</h4>
+                    <p> Lo que con mucho trabajo se adquiere, más se ama.</p>
 
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/a3.jpg" class="img-circle img-small" alt="">
-                    <h4><span>User</span> name</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
+                    <img src="images/mauri.png" class="img-circle img-small" alt="">
+                    <h4><span>Mauricio</span> Gonzaléz</h4>
+                    <p> El genio comienza las grandes obras, pero sólo el trabajo las acaba. </p>
 
                 </div>
             </div>
@@ -297,29 +297,14 @@
         <div class="row m-t-lg text-center">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/a7.jpg" class="img-circle img-small" alt="">
-                    <h4><span>User</span> name</h4>
+                    <img src="images/dani.png" class="img-circle img-small" alt="">
+                    <h4><span>Daniel</span> Hernández</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
 
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="images/a8.jpg" class="img-circle" alt="">
-                    <h4><span>User</span> name</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
 
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="images/a9.jpg" class="img-circle img-small" alt="">
-                    <h4><span>User</span> name</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
 
-                </div>
-            </div>
-        </div>
 
     </div>
 </section>
@@ -515,9 +500,9 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Contact with us</span> anytime</h2>
+                <h2><span class="text-success">Contáctanos en caso de dudas, quejas o sugerencias</span> cuando quieras</h2>
                 <p>
-                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes.
+                  Ingresa tus datos para enviarnos un correo electronico, responderemos en cuanto podamos
                 </p>
             </div>
         </div>
@@ -527,24 +512,24 @@
 
                 <form class="form-horizontal" role="form" method="post" action="#">
                     <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <label for="name" class="col-sm-2 control-label">Nombre</label>
 
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" value="">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre completo" value="">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="email" class="col-sm-2 control-label">Email</label>
 
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="user@example.com" value="">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="usuario@ejemplo.com" value="">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label">Message</label>
+                        <label for="message" class="col-sm-2 control-label">Mensaje</label>
 
                         <div class="col-sm-10">
-                            <textarea class="form-control" rows="3" name="message"  placeholder="Your message here..."></textarea>
+                            <textarea class="form-control" rows="3" name="message"  placeholder="Escribe tu mensaje aquí..."></textarea>
                         </div>
                     </div>
                     <div class="form-group">
