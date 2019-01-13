@@ -49,15 +49,17 @@
                 <div class="panel-body">
                         <form method="post" action="{{ route('login') }}" id="loginForm">
                             {{ csrf_field() }}
-                            <div class="form-group">
+                            <div class="form-group {{ $errors->has('email') ? 'has-error' : ''}}">
                                 <label class="control-label" for="email">Usuario</label>
-                                <input type="email" placeholder="ejemplo@gmail.com" title="Por favor ingresa tu usuario" required="" value="" name="email" id="email" class="form-control">
-                                <span class="help-block small">Tu credencial única de la aplicación</span>
+                                <input type="email" placeholder="Tu credencial única : ejemplo@ejemplo.com" title="Por favor ingresa tu usuario" required="" value="{{ old('email') }}" name="email" id="email" class="form-control">
+                                
+                                {!! $errors->first('email' , '<span class ="help-block">:message</span>') !!}
+
                             </div>
                             <div class="form-group">
                                 <label class="control-label" for="password">Contraseña</label>
                                 <input type="password" title="Por favor ingresa tu contraseña" placeholder="******" required="" value="" name="password" id="password" class="form-control">
-                                <span class="help-block small">Tu contraseña segura</span>
+                                <span class="help-block small">Tu contraseña segura.</span>
                             </div>
                             <div class="checkbox">
                                 <input type="checkbox" class="i-checks" checked>

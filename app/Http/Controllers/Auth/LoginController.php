@@ -34,7 +34,10 @@ class LoginController extends Controller
 			return 'Tu sesión ha iniciado correctamente';
 		}
 
-		return 'Error en la autenticación';
+		return back()
+
+			->witherrors(['email' => 'Estas credenciales no coinciden con nuestros registros!!'])
+			->withInput(request(['email']));
 
 	}
 
