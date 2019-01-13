@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>HOMER | WebApp admin theme</title>
+    <title>Priotelus | Curriculum</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -32,53 +32,62 @@
 <p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
+
+
 <div class="color-line"></div>
 <div class="back-link">
-    <a href="index.html" class="btn btn-primary">Back to Dashboard</a>
+    <a href="home" class="btn btn-primary">Retounen <small>(Volver)</small></a>
 </div>
 <div class="register-container">
     <div class="row">
         <div class="col-md-12">
             <div class="text-center m-b-md">
-                <h3>Registro</h3>
-                <small>Por favor, llena los siguientes campos para registrarte </small>
+                <h3>Kreyatè Currículum</h3>
+                <small>Ranpli nan done yo pou kreyasyon an</small>
             </div>
             <div class="hpanel">
                 <div class="panel-body">
                         <form action="#" id="loginForm">
                             <div class="row">
+                            <div class="form-group col-lg-6">
+                                <label>Non</label><small>   (Nombre)</small>
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Non</label><small>   (Apellido)</small>
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Imèl</label><small>   (Correo electrónico)</small>
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Nimewo telefòn</label><small>   (Número de teléfono)</small>
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
                             <div class="form-group col-lg-12">
-                                <label>Nombre de usuario</label>
+                                <label>Adrès</label><small>   (Dirección)</small>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Rut</label>
+                                <label>Kote nesans</label><small>   (Lugar de nacimiento)</small>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Contraseña</label>
-                                <input type="password" value="" id="" class="form-control" name="">
-                            </div>
-                            <div class="form-group col-lg-6">
-                                <label>Repetir Contraseña</label>
-                                <input type="password" value="" id="" class="form-control" name="">
-                            </div>
-                            <div class="form-group col-lg-6">
-                                <label>Dirección de Correo Electronico</label>
+                                <label>Nasyonalite</label><small>   (Nacionalidad)</small>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Repetir Dirección de Correo Electronico</label>
+                                <label>Dat nesans</label><small>   (Fecha de nacimiento)</small>
                                 <input type="" value="" id="" class="form-control" name="">
                             </div>
-                            <div class="checkbox col-lg-12">
-                                <input type="checkbox" class="i-checks" checked>
-                                Marcar para recibir noticias
-                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Sèks</label><small>   (Género)</small>
+                                <input type="" value="" id="" class="form-control" name="">
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-success">Registrarse</button>
-                                <button class="btn btn-default">Cancelar</button>
+                                <button class="btn btn-success" href="#">Jebere <small>(Generar)</small></button>&nbsp;&nbsp;
+                                <a class="btn btn-default" href="curriculum">Anile <small>(Cancelar)</small></a>
                             </div>
                         </form>
                 </div>

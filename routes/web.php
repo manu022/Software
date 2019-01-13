@@ -30,3 +30,7 @@ Route::get('/register', function() {
 Route::get('/registro_empresa', function() {
   return view('registro_empresa');
 });
+
+Route::get('/curriculum', function() {
+  return view('curriculum');
+});
