@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>Proyecto Software</title>
+    <title>Priotelus | Home</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -41,31 +41,30 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Priotelus</a>
+            <a class="navbar-brand" href="home">Priotelus</a>
             <div class="brand-desc">
                 Gestor de curriculum para imigrantes
             </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a class="page-scroll" href="#page-top">Inicio</a></li>
-                <li><a class="page-scroll" page-scroll href="#components">Ofertas</a></li>
-                <li><a class="page-scroll" page-scroll href="#features">Eventos</a></li>
-                <li><a class="page-scroll" page-scroll href="#team">Equipo</a></li>
-                <li><a class="page-scroll" page-scroll href="#pricing">Información </a></li>
-                <li><a class="page-scroll" page-scroll href="#clients">Nuestros usuarios</a></li>
-                <li><a class="page-scroll" page-scroll href="#contact">Contáctanos</a></li>
-                <li><a href="login" class="btn">Iniciar Sesión</a></li>
+                <li class="active"><a class="page-scroll" href="#inicio">INICIO</a></li>
+                <li><a class="page-scroll" page-scroll href="#ofertas">OFERTAS</a></li>
+                <li><a class="page-scroll" page-scroll href="#eventos">EVENTOS</a></li>
+                <li><a class="page-scroll" page-scroll href="#informacion">INFORMACIÓN</a></li>
+                <li><a class="page-scroll" page-scroll href="#equipo">EQUIPO</a></li>
+                <li><a class="page-scroll" page-scroll href="#contacto">CONTACTO</a></li>
+                <li><a class="navbar-brand" href="login" >INGRESAR</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<header id="page-top">
+<header id="inicio">
     <div class="container">
         <div class="heading">
             <h1>
-                Proyecto Software Inmigración
+                Priotelus
             </h1>
             <span>Sistema de gestión de empleo para inmigrantes</span>
             <!--<p class="small">
@@ -75,7 +74,7 @@
             <br>
             <br>
             <br>
-            <a href="#" class="btn btn-success btn-sm">Learn more</a>
+            <a href="curriculum" class="btn btn-success btn-sm">Kreye ou Curriculum</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-sm">Post of travay</a>
         </div>
         <!--<div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
             <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -91,40 +90,18 @@
         </div>-->
     </div>
 </header>
-<section>
-    <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <h4>Contenido</h4>
-            <p>Aquí va contenido blablablablablablabla.</p>
-            <p><a class="navy-link btn btn-sm" href="#" role="button">Learn more</a></p>
-        </div>
-        <div class="col-md-4">
-            <h4>Contenido</h4>
-            <p>Aquí va contenido blablablablablablabla.</p>
-            <p><a class="navy-link btn btn-sm" href="#" role="button">Learn more</a></p>
-        </div>
-        <div class="col-md-4">
-            <h4>Contenido</h4>
-            <p>Aquí va contenido blablablablablablabla.</p>
-            <p><a class="navy-link btn btn-sm" href="#" role="button">Learn more</a></p>
-        </div>
-    </div>
-    </div>
-</section>
-
-<section id="components" class="bg-light">
+<section id="ofertas">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2><span class="text-success">Ultimas ofertas</span> de trabajo</h2>
+                <h1><span class="text-success">Dènye ofrann</span></h2> <h4>Últimas Ofertas</h4>
                 <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
         <div class="row m-t-md">
             <div class="col-md-6">
                 <h4 class="m-t-xxxl">Contenido</h4>
-                <p>Blablablablablablablabla.</p>
+                <p>1.</p>
             </div>
             <div class="col-md-6">
                 <h2>[IMAGEN]</h2>
@@ -138,13 +115,13 @@
             </div>
             <div class="col-md-6">
                 <h4 class="m-t-xxl">Contenido</h4>
-                <p>Blablablablablablablabla.</p>
+                <p>2.</p>
             </div>
         </div>
         <div class="row  m-t-xl">
             <div class="col-md-6">
                 <h4 class="m-t-xxl">Contenido</h4>
-                <p>Blablablablablablablabla.</p>
+                <p>3.</p>
             </div>
             <div class="col-md-6">
                 <h2>[IMAGEN]</h2>
@@ -158,138 +135,70 @@
             </div>
             <div class="col-md-6">
                 <h4 class="m-t-xxl">Contenido</h4>
-                <p>Blablablablablablablabla.</p>
+                <p>4.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="features">
+<section id="eventos" class="bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-                <h2><span class="text-success">Contenido</span></h2>
-                <p>
-                    Blablablablablablablabla.
-                </p>
-            </div>
-        </div>
-        <div class="row m-t-lg">
-            <div class="col-md-4 col-md-offset-2">
-                <strong>Contenido</strong>
-                <p>Blablablablablablablabla.</p>
-                <a class="btn btn-success btn-sm">Learn more</a>
-            </div>
-            <div class="col-md-4">
-                <strong>Contenido</strong>
-                <p>Blablablablablablablabla.</p>
-                <a class="btn btn-success btn-sm">Learn more</a>
-            </div>
-        </div>
-        <div class="row m-t-lg">
-            <div class="col-md-4 col-md-offset-2">
-                <strong>Contenido</strong>
-                <p>Blablablablablablablabla.</p>
-                <a class="btn btn-success btn-sm">Learn more</a>
-            </div>
-            <div class="col-md-4">
-                <strong>Contenido</strong>
-                <p>Blablablablablablablabla.</p>
-                <a class="btn btn-success btn-sm">Learn more</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="features2" class="bg-light">
-    <div class="container">
-        <div class="row text-center">
             <div class="col-lg-12">
-                <h2><span class="text-success">AQUÍ VA</span>CONTENIDO</h2>
-                <p>xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD. </p>
+                <h1><span class="text-success">Evènman</span></h2> <h4>Eventos</h4>
+                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-airplay text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-science text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-display1 text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-cloud-upload text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
+            
         </div>
-        <div class="row text-center">
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-global text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-battery text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-users text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-            <div class="col-md-3">
-                <h4 class="m-t-lg"><i class="pe-7s-ticket text-success icon-big"></i></h4>
-                <strong>CONTENIDO</strong>
-                <p>Blablablablablablablabla.</p>
-            </div>
-        </div>
-
     </div>
 </section>
 
-<section id="team">
+<section id="informacion">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Nuestro equipo </span>te apoya.</h2>
-                <p>
-                    Somos uno equipo compuesto por cuatro integrantes dedicados a mejorar la situación laboral de los inmigrantes Haitianos en Chile
-                </p>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1><span class="text-success">Enformasyon</span></h2> <h4>Información</h4>
+                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+</section>
+
+<section id="equipo" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+            <div class="col-lg-12">
+                <h1><span class="text-success">Ekip nou an</span></h2> <h4>Nuestro Equipo</h4>
+                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
 
         <div class="row m-t-lg text-center">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/manu.png" class="img-circle img-small" alt="">
+                    <img src="images/a2.jpg" class="img-circle img-small" alt="">
+                    <h4><span>Mauricio</span> González</h4>
+                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="images/a5.jpg" class="img-circle" alt="">
                     <h4><span>Manuel</span> Grandón</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
+                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
 
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/camilo.png" class="img-circle" alt="">
-                    <h4><span>Camilo</span> Monares</h4>
-                    <p> Lo que con mucho trabajo se adquiere, más se ama.</p>
-
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="images/mauri.png" class="img-circle img-small" alt="">
-                    <h4><span>Mauricio</span> Gonzaléz</h4>
-                    <p> El genio comienza las grandes obras, pero sólo el trabajo las acaba. </p>
+                    <img src="images/a3.jpg" class="img-circle img-small" alt="">
+                    <h4><span>Daniel</span> Hernandez</h4>
+                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
 
                 </div>
             </div>
@@ -297,213 +206,27 @@
         <div class="row m-t-lg text-center">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/dani.png" class="img-circle img-small" alt="">
-                    <h4><span>Daniel</span> Hernández</h4>
+                    <img src="images/a7.jpg" class="img-circle img-small" alt="">
+                    <h4><span>Camilo</span> Monares</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
 
                 </div>
             </div>
-
-
+            
+        </div>
 
     </div>
 </section>
 
 
-<section id="pricing" class="bg-light">
+
+<section id="contacto" class="bg-light">
     <div class="container">
-        <div class="row text-center">
+        <div class="row">
+            <div class="row">
             <div class="col-lg-12">
-                <h2><span class="text-success">Información </span>relevante.</h2>
-                <p>Blablablablablablablabla.</p>
-            </div>
-        </div>
-
-        <div class="row m-t-lg">
-            <!--<div class="col-lg-3">
-                <ul class="pricing-plan list-unstyled">
-                    <li class="pricing-title">
-                        Basic
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$16</span>
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li>
-                        <a class="btn btn-primary btn-sm" href="#">Signup today</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3">
-                <ul class="pricing-plan list-unstyled selected">
-                    <li class="pricing-title">
-                        Standard
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$22</span>
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li class="plan-action">
-                        <a class="btn btn-primary btn-sm" href="#">Signup today</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3">
-                <ul class="pricing-plan list-unstyled">
-                    <li class="pricing-title">
-                        Premium
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$160</span>
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li>
-                        <a class="btn btn-primary btn-sm" href="#">Signup today</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3">
-                <ul class="pricing-plan list-unstyled">
-                    <li class="pricing-title">
-                        Prestige
-                    </li>
-                    <li class="pricing-desc">
-                        Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.
-                    </li>
-                    <li class="pricing-price">
-                        <span>$260</span>
-                    </li>
-                    <li>
-                        Dashboards
-                    </li>
-                    <li>
-                        Projects view
-                    </li>
-                    <li>
-                        Contacts
-                    </li>
-                    <li>
-                        Calendar
-                    </li>
-                    <li>
-                        AngularJs
-                    </li>
-                    <li>
-                        <a class="btn btn-primary btn-sm" href="#">Signup today</a>
-                    </li>
-                </ul>-->
-            </div>
-        </div>
-
-    </div>
-</section>
-<section id="clients">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Nuestros</span> usuarios</h2>
-                <p>
-                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes.
-                </p>
-            </div>
-        </div>
-
-        <div class="row text-center m-t-lg">
-            <div class="col-md-6 col-md-offset-3">
-
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="client">Company logo</div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="client">Company logo</div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="client">Company logo</div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="client">Company logo</div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="client">Company logo</div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="client">Company logo</div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-
-    </div>
-</section>
-<section id="contact" class="bg-light">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-6 col-md-offset-3">
-                <h2><span class="text-success">Contáctanos en caso de dudas, quejas o sugerencias</span> cuando quieras</h2>
-                <p>
-                  Ingresa tus datos para enviarnos un correo electronico, responderemos en cuanto podamos
-                </p>
+                <h1><span class="text-success">Kontakte</span></h2> <h4>Contacto</h4>
+                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
 
@@ -512,24 +235,24 @@
 
                 <form class="form-horizontal" role="form" method="post" action="#">
                     <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Nombre</label>
+                        <label for="name" class="col-sm-2 control-label">Name</label>
 
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre completo" value="">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" value="">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="email" class="col-sm-2 control-label">Email</label>
 
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="usuario@ejemplo.com" value="">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="user@example.com" value="">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label">Mensaje</label>
+                        <label for="message" class="col-sm-2 control-label">Message</label>
 
                         <div class="col-sm-10">
-                            <textarea class="form-control" rows="3" name="message"  placeholder="Escribe tu mensaje aquí..."></textarea>
+                            <textarea class="form-control" rows="3" name="message"  placeholder="Your message here..."></textarea>
                         </div>
                     </div>
                     <div class="form-group">
