@@ -47,10 +47,11 @@
             </div>
             <div class="hpanel">
                 <div class="panel-body">
-                        <form action="#" id="loginForm">
+                        <form method="post" action="{{ route('login') }}" id="loginForm">
+                            {{ csrf_field() }}
                             <div class="form-group">
-                                <label class="control-label" for="username">Usuario</label>
-                                <input type="text" placeholder="ejemplo@gmail.com" title="Por favor ingresa tu usuario" required="" value="" name="username" id="username" class="form-control">
+                                <label class="control-label" for="email">Usuario</label>
+                                <input type="email" placeholder="ejemplo@gmail.com" title="Por favor ingresa tu usuario" required="" value="" name="email" id="email" class="form-control">
                                 <span class="help-block small">Tu credencial única de la aplicación</span>
                             </div>
                             <div class="form-group">

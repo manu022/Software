@@ -19,9 +19,9 @@ Route::get('/home', function () {
     return view('landing_page');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('login', 'Auth\LoginController@getLogin');
+
+Route::post('login', 'Auth\LoginController@login')->name('login');
 
 Route::get('/register', function() {
 	return view('register');
