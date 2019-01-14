@@ -20,15 +20,19 @@ class RegisterController extends Controller
     | provide this functionality without requiring any additional code.
     |
     */
-
     use RegistersUsers;
+
+    public function showRegisterForm()
+    {
+        return view('register');
+    }
 
     /**
      * Where to redirect users after registration.
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/dashboard';
 
     /**
      * Create a new controller instance.
@@ -50,8 +54,11 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users', 'confirmed'],
+            'rut' => ['required', 'integer', 'unique:users'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
+            'tipo_usuario'=> ['required', 'integer'],
+            'telefono'=> ['required', 'integer', 'digits:9', 'unique:users'],
         ]);
     }
 
@@ -66,7 +73,10 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'rut' => $data['rut'],
             'password' => Hash::make($data['password']),
+            'tipo_usuario' => $data['tipo_usuario'],
+            'telefono' => $data['telefono'],
         ]);
     }
 }

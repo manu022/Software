@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>HOMER | WebApp admin theme</title>
+    <title>Registro Empresa</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -34,7 +34,7 @@
 
 <div class="color-line"></div>
 <div class="back-link">
-    <a href="index.html" class="btn btn-primary">Back to Dashboard</a>
+    <a href="login" class="btn btn-primary">Volver</a>
 </div>
 <div class="register-container">
     <div class="row">
@@ -45,40 +45,63 @@
             </div>
             <div class="hpanel">
                 <div class="panel-body">
-                        <form action="#" id="loginForm">
+                        <form method="post" action="{{ route('register') }}" id="loginForm">
+                            {{ csrf_field() }}
                             <div class="row">
                             <div class="form-group col-lg-12">
-                                <label>Nombre empresa</label>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <label>Nombre de Empresa</label>
+                                <input type="text" value="{{ old('name') }}" id="name" class="form-control" name="name" required>
                             </div>
                             <div class="form-group col-lg-6">
-                                <label>Rut empresa o representante</label>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <label>Rut Empresa o Representante</label>
+                                <input type="" value="{{ old('rut') }}" id="rut" class="form-control" name="rut" required>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label>Celular</label>
+                                <input type="" value="{{ old('telefono') }}" id="telefono" class="form-control{{ $errors->has('telefono') ? ' is-invalid' : '' }}" name="telefono" required>
+                                @if ($errors->has('telefono'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('telefono') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Contraseña</label>
-                                <input type="password" value="" id="" class="form-control" name="">
+                                <input type="password" value="" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                                @if ($errors->has('password'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Repetir Contraseña</label>
-                                <input type="password" value="" id="" class="form-control" name="">
+                                <input type="password" value="" id="password-confirm" class="form-control" name="password_confirmation" required>
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Dirección de Correo Electronico</label>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="email" value="{{ old('email') }}" id="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" required>
+                                @if ($errors->has('email'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Repetir Dirección de Correo Electronico</label>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="email" value="" id="email-confirm" class="form-control" name="email_confirmation" required>
                             </div>
+                            
                             <div class="checkbox col-lg-12">
                                 <input type="checkbox" class="i-checks" checked>
                                 Marcar para recibir noticias
                             </div>
                             </div>
+                            <div><input id="tipo_usuario" type="hidden" class="form-control" name="tipo_usuario" value=3 required></div>
                             <div class="text-center">
+
                                 <button class="btn btn-success">Registrarse</button>
-                                <button class="btn btn-default">Cancelar</button>
+                               
                             </div>
                         </form>
                 </div>
