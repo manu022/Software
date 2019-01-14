@@ -3,16 +3,20 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+
 use Auth;
 
 class LoginController extends Controller
 {
     
+	public function __construct()
+	{
+		$this->middleware('guest', ['only' => 'showLoginForm']);
+	}
 
-
-    protected function getLogin()
+    public function showLoginForm()
     {
-        return view("login");
+        return view('login');
     }
 
 
@@ -31,13 +35,22 @@ class LoginController extends Controller
 	
 		if(Auth::attempt($credentials))
 		{
-			return 'Tu sesión ha iniciado correctamente';
+			return redirect()->route('dashboard');
 		}
 
 		return back()
 
 			->witherrors(['email' => 'Estas credenciales no coinciden con nuestros registros!!'])
 			->withInput(request(['email']));
+
+	}
+
+	public function logout()
+	{
+
+		Auth::logout();
+
+		return redirect('login');
 
 	}
 

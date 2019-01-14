@@ -19,9 +19,9 @@ Route::get('/home', function () {
     return view('landing_page');
 });
 
-Route::get('login', 'Auth\LoginController@getLogin');
-
+Route::get('login', 'Auth\LoginController@showLoginForm');
 Route::post('login', 'Auth\LoginController@login')->name('login');
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/register', function() {
 	return view('register');
@@ -34,3 +34,8 @@ Route::get('/registro_empresa', function() {
 Route::get('/curriculum', function() {
   return view('curriculum');
 });
+
+Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+
+
+
