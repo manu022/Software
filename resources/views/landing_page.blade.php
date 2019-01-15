@@ -74,7 +74,7 @@
             <br>
             <br>
             <br>
-            <a href="curriculum" class="btn btn-success btn-sm"><h5>Kreye ou Curriculum</h5><small>Crea tu currículum</small></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-sm"><h5>Voye travay</h5><small>Subir oferta laboral</small></a>
+            <a href="curriculum" class="btn btn-success btn-lg"><h4>Kreye ou Curriculum</h4><small>Crea tu currículum</small></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-lg"><h4>Voye travay</h4><small>Subir oferta laboral</small></a>
         </div>
         <!--<div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
             <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -111,12 +111,10 @@
                             Descripcion breve.
                         </p>
                     </div>
-                    <div class="panel-footer contact-footer">
-                        <div class="row">
-                            <div class="row text-center m-t-lg">
-                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
-                            </div>      
-                        </div>
+                    <div class="panel-footer">
+                        <div class="row text-center m-t-lg">
+                            <a href="" class="btn btn-primary btn-sm">Wè plis <small>(Ver más)</small></a>
+                        </div>      
                     </div>
                 </div>
             </div>
@@ -131,12 +129,10 @@
                             Descripcion breve.
                         </p>
                     </div>
-                    <div class="panel-footer contact-footer">
-                        <div class="row">
-                            <div class="row text-center m-t-lg">
-                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
-                            </div>      
-                        </div>
+                    <div class="panel-footer">
+                        <div class="row text-center m-t-lg">
+                            <a href="" class="btn btn-primary btn-sm">Wè plis <small>(Ver más)</small></a>
+                        </div>      
                     </div>
                 </div>
             </div>
@@ -151,12 +147,10 @@
                             Descripcion breve.
                         </p>
                     </div>
-                    <div class="panel-footer contact-footer">
-                        <div class="row">
-                            <div class="row text-center m-t-lg">
-                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
-                            </div>      
-                        </div>
+                    <div class="panel-footer">
+                        <div class="row text-center m-t-lg">
+                            <a href="" class="btn btn-primary btn-sm">Wè plis <small>(Ver más)</small></a>
+                        </div>      
                     </div>
                 </div>
             </div>
@@ -171,19 +165,17 @@
                             Descripcion breve.
                         </p>
                     </div>
-                    <div class="panel-footer contact-footer">
-                        <div class="row">
-                            <div class="row text-center m-t-lg">
-                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
-                            </div>      
-                        </div>
+                    <div class="panel-footer">
+                        <div class="row text-center m-t-lg">
+                            <a href="" class="btn btn-primary btn-sm">Wè plis <small>(Ver más)</small></a>
+                        </div>      
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row text-center m-t-lg">
-            <a href="" class="btn btn-success btn-sm"><h5>Gade tout travay</h5><small>(Ver todos los trabajos)</small></a>
+            <a href="" class="btn btn-info btn-sm"><h5>Gade tout travay</h5><small>(Ver todos los trabajos)</small></a>
         </div> 
 
     </div>
@@ -202,7 +194,6 @@
             <div class="col-lg-6">
                 <div class="hpanel hred">
                     <div class="panel-body">
-                        <span class="label label-success pull-right">NEW</span>
                         <div class="row">
                             <div class="col-sm-8">
                                 <h4><a href="">Nombre Evento</a></h4>
@@ -212,38 +203,25 @@
                                 </p>
 
                                 <div class="row">
-                                    <div class="col-sm-3">
-                                        <div class="project-label">CLIENT</div>
-                                        <small>Hendrix Corp</small>
+                                    <div class="col-sm-8">
+                                        <div class="project-label">PLAS (Lugar)</div>
+                                        <small>Dirección</small>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <div class="project-label">VERSION</div>
-                                        <small>1.5.2</small>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="project-label">DEDLINE</div>
-                                        <small>12.06.2015</small>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="project-label">PROGRESS</div>
-                                        <div class="progress m-t-xs full progress-small">
-                                            <div style="width: 12%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="12" role="progressbar" class=" progress-bar progress-bar-success">
-                                            </div>
-                                        </div>
+                                    <div class="col-sm-4">
+                                        <div class="project-label">KALITE (Tipo)</div>
+                                        <small>Feria Laboral</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4 project-info">
                                 <div class="project-action m-t-md">
                                     <div class="btn-group">
-                                        <button class="btn btn-xs btn-default"> View</button>
-                                        <button class="btn btn-xs btn-default"> Edit</button>
-                                        <button class="btn btn-xs btn-default"> Delete</button>
+                                        <button class="btn btn-xs btn-primary btn-outline"> Asistan (Asistir)</button>
                                     </div>
                                 </div>
                                 <div class="project-value">
                                     <h2 class="text-success">
-                                        $1 206,40
+                                        FECHA
                                     </h2>
                                 </div>
                                 <div class="project-people">
@@ -251,87 +229,69 @@
                                     <img alt="logo" class="img-circle" src="images/a2.jpg">
                                     <img alt="logo" class="img-circle" src="images/a3.jpg">
                                     <img alt="logo" class="img-circle" src="images/a4.jpg">
-                                    <img alt="logo" class="img-circle" src="images/a5.jpg">
-                                    <img alt="logo" class="img-circle" src="images/a6.jpg">
-                                    <img alt="logo" class="img-circle" src="images/a7.jpg">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="panel-footer">
-                        Additional information about project in footer
+                        <button class="btn btn-primary btn-sm demo1">Plis enfòmasyon <small>(Más información)</small></button>
                     </div>
                 </div>
-            </div>
+            </div>  
+
             <div class="col-lg-6">
-                <div class="hpanel hblue">
+                <div class="hpanel hred">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-sm-8">
                                 <h4><a href="">Nombre Evento</a></h4>
+
                                 <p>
                                     Descripción
                                 </p>
+
                                 <div class="row">
-                                    <div class="col-sm-3">
-                                        <div class="project-label">CLIENT</div>
-                                        <small>Vito Company</small>
+                                    <div class="col-sm-8">
+                                        <div class="project-label">PLAS (Lugar)</div>
+                                        <small>Dirección</small>
                                     </div>
-                                    <div class="col-sm-3">
-                                        <div class="project-label">VERSION</div>
-                                        <small>3.0.0</small>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="project-label">DEDLINE</div>
-                                        <small>16.10.2015</small>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <div class="project-label">PROGRESS</div>
-                                        <div class="progress m-t-xs full progress-small">
-                                            <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class=" progress-bar progress-bar-warning">
-                                            </div>
-                                        </div>
+                                    <div class="col-sm-4">
+                                        <div class="project-label">KALITE (Tipo)</div>
+                                        <small>Charla</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4 project-info">
                                 <div class="project-action m-t-md">
                                     <div class="btn-group">
-                                        <button class="btn btn-xs btn-default"> View</button>
-                                        <button class="btn btn-xs btn-default"> Edit</button>
-                                        <button class="btn btn-xs btn-default"> Delete</button>
+                                        <button class="btn btn-xs btn-primary btn-outline"> Asistan (Asistir)</button>
                                     </div>
                                 </div>
                                 <div class="project-value">
-                                    <h2 class="text-warning">
-                                        $3 600,20
+                                    <h2 class="text-success">
+                                        FECHA
                                     </h2>
                                 </div>
                                 <div class="project-people">
-                                    <img alt="logo" class="img-circle" src="images/a7.jpg">
-                                    <img alt="logo" class="img-circle" src="images/a8.jpg">
-                                    <img alt="logo" class="img-circle" src="images/a3.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a1.jpg">
                                     <img alt="logo" class="img-circle" src="images/a2.jpg">
-                                    <img alt="logo" class="img-circle" src="images/a5.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a3.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a4.jpg">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="panel-footer">
-                        Additional information about project in footer
+                        <button class="btn btn-primary btn-sm demo1">Plis enfòmasyon <small>(Más información)</small></button>
                     </div>
                 </div>
-            </div>
+            </div>  
+
         </div>
  
-
-
-
-
-
-
-
-
+        <div class="row text-center m-t-lg">
+            <a href="" class="btn btn-info btn-sm"><h5>Gade tout evènman yo</h5><small>(Ver todos los eventos)</small></a>
+        </div> 
 
     </div>
 </section>
@@ -344,8 +304,61 @@
                 <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
-            
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <div class="text-center">
+                            <h2 class="m-b-xs">Ambassade au Chili</h2>
+                            <p class="font-bold text-success">Embajada en Chile</p>
+                            <div class="m">
+                                <i class="pe-7s-culture fa-5x"></i>
+                            </div>
+                            <p class="small">
+                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <button href="http://www.embajadahaiti.cl/" target="_blank" class="btn btn-warning btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <div class="text-center">
+                            <h2 class="m-b-xs">Nouvo lwa Imigrasyon</h2>
+                            <p class="font-bold text-info">Nueva ley de Migración</p>
+                            <div class="m">
+                                <i class="pe-7s-id fa-5x"></i>
+                            </div>
+                            <p class="small">
+                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <button href="https://www.gob.cl/nuevaleydemigracion/" target="_blank" class="btn btn-warning2 btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <div class="text-center">
+                            <h2 class="m-b-xs">Dwa travayè yo</h2>
+                            <p class="font-bold text-warning">Derechos de los trabajadores</p>
+                            <div class="m">
+                                <i class="pe-7s-user fa-5x"></i>
+                            </div>
+                            <p class="small">
+                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                            <button href="https://www.chileatiende.gob.cl/fichas/26501-derechos-de-los-trabajadores" target="_blank" class="btn btn-danger btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </section>
 
@@ -360,14 +373,14 @@
         </div>
 
         <div class="row m-t-lg text-center">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="team-member">
                     <img src="images/a2.jpg" class="img-circle img-small" alt="">
                     <h4><span>Mauricio</span> González</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="team-member">
                     <img src="images/a5.jpg" class="img-circle" alt="">
                     <h4><span>Manuel</span> Grandón</h4>
@@ -376,17 +389,17 @@
             </div>
         </div>
         <div class="row m-t-lg text-center">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="team-member">
                     <img src="images/a2.jpg" class="img-circle img-small" alt="">
-                    <h4><span>Mauricio</span> González</h4>
+                    <h4><span>Camilo</span> Monares</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="team-member">
                     <img src="images/a5.jpg" class="img-circle" alt="">
-                    <h4><span>Manuel</span> Grandón</h4>
+                    <h4><span>Daniel</span> Hernandez</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
                 </div>
             </div>
