@@ -175,7 +175,7 @@
         </div>
 
         <div class="row text-center m-t-lg">
-            <a href="" class="btn btn-info btn-sm"><h5>Gade tout travay</h5><small>(Ver todos los trabajos)</small></a>
+            <a href="empleos" class="btn btn-info btn-sm"><h5>Gade tout travay</h5><small>(Ver todos los trabajos)</small></a>
         </div> 
 
     </div>
@@ -290,7 +290,7 @@
         </div>
  
         <div class="row text-center m-t-lg">
-            <a href="" class="btn btn-info btn-sm"><h5>Gade tout evènman yo</h5><small>(Ver todos los eventos)</small></a>
+            <a href="eventos" class="btn btn-info btn-sm"><h5>Gade tout evènman yo</h5><small>(Ver todos los eventos)</small></a>
         </div> 
 
     </div>
@@ -420,48 +420,35 @@
         </div>
 
         <div class="row text-center m-t-lg">
-            <div class="col-md-4 col-md-offset-3">
-
                 <form class="form-horizontal" role="form" method="post" action="#">
                     <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <label for="name" class="col-sm-3 control-label">Non <small>(Nombre)</small></label>
 
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" value="">
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Non konplè ou" value="">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <label for="email" class="col-sm-3 control-label">Imèl <small>(Email)</small></label>
 
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="user@example.com" value="">
+                        <div class="col-sm-7">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="user@ejemplo.com" value="">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="message" class="col-sm-2 control-label">Message</label>
+                        <label for="message" class="col-sm-3 control-label">Mesaj <small>(Mensaje)</small></label>
 
-                        <div class="col-sm-10">
-                            <textarea class="form-control" rows="3" name="message"  placeholder="Your message here..."></textarea>
+                        <div class="col-sm-7">
+                            <textarea class="form-control" rows="5" name="message"  placeholder="Ekri mesaj ou a isit la..."></textarea>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <input id="submit" name="submit" type="submit" value="Send us a message" class="btn btn-success">
+                            <input id="submit" name="submit" type="submit" value="Voye mesaj (Enviar mensaje)" class="btn btn-success">
                         </div>
                     </div>
                 </form>
 
-            </div>
-            <div class="col-md-3 text-left">
-                <address>
-                    <strong><span class="navy">Company name, Inc.</span></strong><br/>
-                    601 Street name, 123<br/>
-                    New York, De 34101<br/>
-                    <abbr title="Phone">P:</abbr> (123) 678-8674
-                </address>
-                <p class="text-color">
-                    Consectetur adipisicing elit. Aut eaque, totam corporis laboriosam veritatis quis ad perspiciatis, totam corporis laboriosam veritatis, consectetur adipisicing elit quos non quis ad perspiciatis, totam corporis ea,
-                </p>
             </div>
         </div>
 

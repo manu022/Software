@@ -35,6 +35,13 @@ Route::get('/curriculum', function() {
   return view('curriculum');
 });
 
+Route::get('/eventos', function() {
+  return view('eventos');
+});
+
+Route::get('/empleos', function() {
+  return view('empleos');
+});
 Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 
 
