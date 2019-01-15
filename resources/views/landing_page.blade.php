@@ -43,18 +43,18 @@
             </button>
             <a class="navbar-brand" href="home">Priotelus</a>
             <div class="brand-desc">
-                Gestor de curriculum para imigrantes
+                
             </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a class="page-scroll" href="#inicio">INICIO</a></li>
-                <li><a class="page-scroll" page-scroll href="#ofertas">OFERTAS</a></li>
-                <li><a class="page-scroll" page-scroll href="#eventos">EVENTOS</a></li>
-                <li><a class="page-scroll" page-scroll href="#informacion">INFORMACIÓN</a></li>
-                <li><a class="page-scroll" page-scroll href="#equipo">EQUIPO</a></li>
-                <li><a class="page-scroll" page-scroll href="#contacto">CONTACTO</a></li>
-                <li><a class="navbar-brand" href="login" >INGRESAR</a></li>
+                <li class="active"><a class="page-scroll" href="#inicio">Kòmanse</a></li>
+                <li><a class="page-scroll" page-scroll href="#ofertas">Ofri</a></li>
+                <li><a class="page-scroll" page-scroll href="#eventos">Evènman</a></li>
+                <li><a class="page-scroll" page-scroll href="#informacion">Enfòmasyon</a></li>
+                <li><a class="page-scroll" page-scroll href="#equipo">Ekip</a></li>
+                <li><a class="page-scroll" page-scroll href="#contacto">Kontakte</a></li>
+                <li><a class="navbar-brand" href="login" >Antre nan <small>(INGRESAR)</small></a></li>
             </ul>
         </div>
     </div>
@@ -74,7 +74,7 @@
             <br>
             <br>
             <br>
-            <a href="curriculum" class="btn btn-success btn-sm">Kreye ou Curriculum</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-sm">Post of travay</a>
+            <a href="curriculum" class="btn btn-success btn-sm"><h5>Kreye ou Curriculum</h5><small>Crea tu currículum</small></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-sm"><h5>Voye travay</h5><small>Subir oferta laboral</small></a>
         </div>
         <!--<div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
             <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -98,46 +98,94 @@
                 <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
-        <div class="row m-t-md">
-            <div class="col-md-6">
-                <h4 class="m-t-xxxl">Contenido</h4>
-                <p>1.</p>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="hpanel hgreen contact-panel">
+                    <div class="panel-body">
+                        <span class="label label-success pull-right">Nouvo</span>
+                        <img alt="logo" class="img-circle m-b" src="images/profile.jpg">
+                        <h3><a href="">Nombre Empresa</a></h3>
+                        <div class="text-muted font-bold m-b-xs">Cargo</div>
+                        <p>
+                            Descripcion breve.
+                        </p>
+                    </div>
+                    <div class="panel-footer contact-footer">
+                        <div class="row">
+                            <div class="row text-center m-t-lg">
+                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h2>[IMAGEN]</h2>
-                <!--<img src="images/landing/s2.png" class="img-responsive">-->
+            <div class="col-lg-3">
+                <div class="hpanel hyellow contact-panel">
+                    <div class="panel-body">
+                        <span class="label label-success pull-right">Nouvo</span>
+                        <img alt="logo" class="img-circle m-b" src="images/profile.jpg">
+                        <h3><a href="">Nombre Empresa</a></h3>
+                        <div class="text-muted font-bold m-b-xs">Cargo</div>
+                        <p>
+                            Descripcion breve.
+                        </p>
+                    </div>
+                    <div class="panel-footer contact-footer">
+                        <div class="row">
+                            <div class="row text-center m-t-lg">
+                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="hpanel hviolet contact-panel">
+                    <div class="panel-body">
+                        <span class="label label-success pull-right">Nouvo</span>
+                        <img alt="logo" class="img-circle m-b" src="images/profile.jpg">
+                        <h3><a href="">Nombre Empresa</a></h3>
+                        <div class="text-muted font-bold m-b-xs">Cargo</div>
+                        <p>
+                            Descripcion breve.
+                        </p>
+                    </div>
+                    <div class="panel-footer contact-footer">
+                        <div class="row">
+                            <div class="row text-center m-t-lg">
+                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="hpanel hblue contact-panel">
+                    <div class="panel-body">
+                        <span class="label label-success pull-right">Nouvo</span>
+                        <img alt="logo" class="img-circle m-b" src="images/profile.jpg">
+                        <h3><a href="">Nombre Empresa</a></h3>
+                        <div class="text-muted font-bold m-b-xs">Cargo</div>
+                        <p>
+                            Descripcion breve.
+                        </p>
+                    </div>
+                    <div class="panel-footer contact-footer">
+                        <div class="row">
+                            <div class="row text-center m-t-lg">
+                                <a href="" class="btn btn-success btn-sm">Wè plis <small>(Ver más)</small></a>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row m-t-xl">
-            <div class="col-md-6">
-                <h2>[IMAGEN]</h2>
-                <!--<img src="images/landing/s4.png" class="img-responsive">-->
-            </div>
-            <div class="col-md-6">
-                <h4 class="m-t-xxl">Contenido</h4>
-                <p>2.</p>
-            </div>
-        </div>
-        <div class="row  m-t-xl">
-            <div class="col-md-6">
-                <h4 class="m-t-xxl">Contenido</h4>
-                <p>3.</p>
-            </div>
-            <div class="col-md-6">
-                <h2>[IMAGEN]</h2>
-                <!--<img src="images/landing/s1.png" class="img-responsive">-->
-            </div>
-        </div>
-        <div class="row m-t-xl">
-            <div class="col-md-6">
-                <h2>[IMAGEN]</h2>
-                <!--<img src="images/landing/s3.png" class="img-responsive">-->
-            </div>
-            <div class="col-md-6">
-                <h4 class="m-t-xxl">Contenido</h4>
-                <p>4.</p>
-            </div>
-        </div>
+
+        <div class="row text-center m-t-lg">
+            <a href="" class="btn btn-success btn-sm"><h5>Gade tout travay</h5><small>(Ver todos los trabajos)</small></a>
+        </div> 
+
     </div>
 </section>
 
@@ -149,8 +197,142 @@
                 <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
-            
+
+        <div class="row projects">
+            <div class="col-lg-6">
+                <div class="hpanel hred">
+                    <div class="panel-body">
+                        <span class="label label-success pull-right">NEW</span>
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4><a href="">Nombre Evento</a></h4>
+
+                                <p>
+                                    Descripción
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="project-label">CLIENT</div>
+                                        <small>Hendrix Corp</small>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="project-label">VERSION</div>
+                                        <small>1.5.2</small>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="project-label">DEDLINE</div>
+                                        <small>12.06.2015</small>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="project-label">PROGRESS</div>
+                                        <div class="progress m-t-xs full progress-small">
+                                            <div style="width: 12%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="12" role="progressbar" class=" progress-bar progress-bar-success">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 project-info">
+                                <div class="project-action m-t-md">
+                                    <div class="btn-group">
+                                        <button class="btn btn-xs btn-default"> View</button>
+                                        <button class="btn btn-xs btn-default"> Edit</button>
+                                        <button class="btn btn-xs btn-default"> Delete</button>
+                                    </div>
+                                </div>
+                                <div class="project-value">
+                                    <h2 class="text-success">
+                                        $1 206,40
+                                    </h2>
+                                </div>
+                                <div class="project-people">
+                                    <img alt="logo" class="img-circle" src="images/a1.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a2.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a3.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a4.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a5.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a6.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a7.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        Additional information about project in footer
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hpanel hblue">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4><a href="">Nombre Evento</a></h4>
+                                <p>
+                                    Descripción
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="project-label">CLIENT</div>
+                                        <small>Vito Company</small>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="project-label">VERSION</div>
+                                        <small>3.0.0</small>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="project-label">DEDLINE</div>
+                                        <small>16.10.2015</small>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="project-label">PROGRESS</div>
+                                        <div class="progress m-t-xs full progress-small">
+                                            <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class=" progress-bar progress-bar-warning">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 project-info">
+                                <div class="project-action m-t-md">
+                                    <div class="btn-group">
+                                        <button class="btn btn-xs btn-default"> View</button>
+                                        <button class="btn btn-xs btn-default"> Edit</button>
+                                        <button class="btn btn-xs btn-default"> Delete</button>
+                                    </div>
+                                </div>
+                                <div class="project-value">
+                                    <h2 class="text-warning">
+                                        $3 600,20
+                                    </h2>
+                                </div>
+                                <div class="project-people">
+                                    <img alt="logo" class="img-circle" src="images/a7.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a8.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a3.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a2.jpg">
+                                    <img alt="logo" class="img-circle" src="images/a5.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        Additional information about project in footer
+                    </div>
+                </div>
+            </div>
         </div>
+ 
+
+
+
+
+
+
+
+
+
     </div>
 </section>
 
@@ -183,7 +365,6 @@
                     <img src="images/a2.jpg" class="img-circle img-small" alt="">
                     <h4><span>Mauricio</span> González</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
-
                 </div>
             </div>
             <div class="col-sm-4">
@@ -191,30 +372,25 @@
                     <img src="images/a5.jpg" class="img-circle" alt="">
                     <h4><span>Manuel</span> Grandón</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
-
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="images/a3.jpg" class="img-circle img-small" alt="">
-                    <h4><span>Daniel</span> Hernandez</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
-
                 </div>
             </div>
         </div>
         <div class="row m-t-lg text-center">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="images/a7.jpg" class="img-circle img-small" alt="">
-                    <h4><span>Camilo</span> Monares</h4>
+                    <img src="images/a2.jpg" class="img-circle img-small" alt="">
+                    <h4><span>Mauricio</span> González</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
-
                 </div>
             </div>
-            
-        </div>
-
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="images/a5.jpg" class="img-circle" alt="">
+                    <h4><span>Manuel</span> Grandón</h4>
+                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
+                </div>
+            </div>
+        </div>    
     </div>
 </section>
 

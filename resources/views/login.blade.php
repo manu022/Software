@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>Priotelus | Login</title>
+    <title>Priotelus | Ingreso</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -35,7 +35,7 @@
 <div class="color-line"></div>
 
 <div class="back-link">
-    <a href="/home" class="btn btn-primary">Volver</a>
+    <a href="home" class="btn btn-primary">Retounen <small>(Volver)</small></a>
 </div>
 
 <div class="login-container">
@@ -66,9 +66,11 @@
                                      Recuérdame
                                 <p class="help-block small">(Solo si es una computadora personal*)</p>
                             </div>
-                            <button class="btn btn-success btn-block">Iniciar sesión</button>
-                            <a class="btn btn-default btn-block" href="register">Registrarse como usuario</a>
-                            <a class="btn btn-default btn-block" href="registro_empresa">Registrarse como empresa</a>
+                            <button class="btn btn-success btn-block">Login <small>(Iniciar sesión)</small></button>
+                            <a class="btn btn-default btn-block" href="register">Enskri kòm itilizatè
+                            </br><small>(Registrarse como usuario)</small></a>
+                            <a class="btn btn-default btn-block" href="registro_empresa">Registrarse como empresa
+                            </br><small>(Enskri kòm yon konpayi)</small></a>
                         </form>
                 </div>
             </div>
