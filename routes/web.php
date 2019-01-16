@@ -44,5 +44,6 @@ Route::get('/empleos', function() {
 });
 Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 
-
-
+Route::get('/prueba_no_tocar', function() {
+  return view('prueba_no_tocar');
+});
