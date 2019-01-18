@@ -27,7 +27,7 @@
 <body class="landing-page">
 
 <!-- Simple splash screen-->
-<div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>Homer - Responsive Admin Theme</h1><p>Special Admin Theme for small and medium webapp with very clean and aesthetic style and feel. </p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
+<div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>PRIOTELUS</h1><p>SISTEMA DE GESTIÓN DE EMPLEO PARA INMIGRANTES HAITIANOS</p><div class="spinner"> <div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div> </div> </div> </div>
 <!--[if lt IE 7]>
 <p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -48,7 +48,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a class="page-scroll" href="#inicio">Kòmanse</a></li>
+                <li class="active"><a class="page-scroll" href="#inicio">Lakay</a></li>
                 <li><a class="page-scroll" page-scroll href="#ofertas">Ofri</a></li>
                 <li><a class="page-scroll" page-scroll href="#eventos">Evènman</a></li>
                 <li><a class="page-scroll" page-scroll href="#informacion">Enfòmasyon</a></li>
@@ -76,18 +76,6 @@
             <br>
             <a href="curriculum" class="btn btn-success btn-lg"><h4>Kreye ou Curriculum</h4><small>Crea tu currículum</small></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-lg"><h4>Voye travay</h4><small>Subir oferta laboral</small></a>
         </div>
-        <!--<div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
-            <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <img class="img-animate" src="images/landing/c1.jpg">
-            <img class="img-animate" src="images/landing/c2.jpg">
-            <img class="img-animate" src="images/landing/c3.jpg">
-            <img class="img-animate" src="images/landing/c4.jpg">
-            <br/>
-            <img class="img-animate" src="images/landing/c5.jpg">
-            <img class="img-animate" src="images/landing/c6.jpg">
-            <img class="img-animate" src="images/landing/c7.jpg">
-            <img class="img-animate" src="images/landing/c8.jpg">
-        </div>-->
     </div>
 </header>
 <section id="ofertas">
@@ -216,7 +204,7 @@
                             <div class="col-sm-4 project-info">
                                 <div class="project-action m-t-md">
                                     <div class="btn-group">
-                                        <button class="btn btn-xs btn-primary btn-outline"> Asistan (Asistir)</button>
+                                        
                                     </div>
                                 </div>
                                 <div class="project-value">
@@ -264,7 +252,7 @@
                             <div class="col-sm-4 project-info">
                                 <div class="project-action m-t-md">
                                     <div class="btn-group">
-                                        <button class="btn btn-xs btn-primary btn-outline"> Asistan (Asistir)</button>
+                                        
                                     </div>
                                 </div>
                                 <div class="project-value">

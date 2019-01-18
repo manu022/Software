@@ -42,6 +42,19 @@ Route::get('/eventos', function() {
 Route::get('/empleos', function() {
   return view('empleos');
 });
+
+Route::get('/perfil', function() {
+  return view('perfil');
+});
+
+Route::get('/calendario', function() {
+  return view('calendario');
+});
+
+Route::get('/eventos', function() {
+  return view('eventos');
+});
+
 Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 
 Route::get('/pruebados', function(){
