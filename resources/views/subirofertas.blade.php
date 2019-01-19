@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>Priotelus | Calendario</title>
+    <title>Priotelus | Empleos</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css" />
     <link rel="stylesheet" href="vendor/animate.css/animate.css" />
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="vendor/fullcalendar/dist/fullcalendar.print.css" media='print'/>
-    <link rel="stylesheet" href="vendor/fullcalendar/dist/fullcalendar.min.css" />
 
     <!-- App styles -->
     <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
@@ -110,7 +108,7 @@
 <!-- Main Wrapper -->
 <div id="wrapper">
 
-    <div class="normalheader transition animated fadeIn">
+<div class="normalheader transition animated fadeIn">
         <div class="hpanel">
             <div class="panel-body">
                 <a class="small-header-action" href="">
@@ -118,26 +116,79 @@
                         <i class="fa fa-arrow-up"></i>
                     </div>
                 </a>
+
                 <h2 class="font-light m-b-xs">
-                    Kalandriye.
+                    Subir Ofertas
                 </h2>
-                <small>Calendario.</small>
+                <small>Upload ofri.</small>
+
+                <h6 class="text-success">Ingrese los datos necesarios para publicar la oferta laboral.</h6>
             </div>
         </div>
-    </div>
-
-<div class="content">
-
-<div class="row">
-    <div class="col-lg-12">
-        <div class="hpanel">
-            <div class="panel-body">
-                <div id="calendar"></div>
-            </div>
-        </div>
-    </div>
 </div>
 
+    <div class="content animate-panel">
+        <div class="row projects">
+            <div class="col-lg-12">
+                <div class="hpanel hgreen">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="form-group col-lg-3">
+                                <label>Empresa</label><small>   (Biznis)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Sitio Web</label><small>   (Sit entènèt)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Lugar de Trabajo</label><small>   (Espas Travay)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Cargo</label><small>   (Kago)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Área</label><small>   (Zòn)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Tipo de Puesto</label><small>   (Kalite pozisyon)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Salario</label><small>   (Salè)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="" value="" id="" class="form-control" name="">
+                            </div>
+                            <div class="form-group col-lg-3">
+                                <label>Descripción</label><small>   (Deskripsyon)</small>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <textarea class="form-control" rows="5" name="message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <a href="" class="btn btn-primary btn-sm">ENVIAR OFERTA <small>(VOYE OFRI)</small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Right sidebar -->
@@ -255,7 +306,6 @@
     </div>
 
     <!-- Footer-->
-    <!-- Footer-->
     <footer class="footer">
         Priotelus 2018-2019
     </footer>
@@ -270,120 +320,9 @@
 <script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
 <script src="vendor/iCheck/icheck.min.js"></script>
 <script src="vendor/sparkline/index.js"></script>
-<script src="vendor/moment/min/moment.min.js"></script>
-<script src="vendor/fullcalendar/dist/fullcalendar.min.js"></script>
 
 <!-- App scripts -->
 <script src="scripts/homer.js"></script>
 
-
-<script>
-
-    $(function () {
-
-
-        /* initialize the external events
-         -----------------------------------------------------------------*/
-
-        $('#external-events div.external-event').each(function() {
-
-            // store data so the calendar knows to render an event upon drop
-            $(this).data('event', {
-                title: $.trim($(this).text()), // use the element's text as the event title
-                stick: true // maintain when user navigates (see docs on the renderEvent method)
-            });
-
-            // make the event draggable using jQuery UI
-            $(this).draggable({
-                zIndex: 1111999,
-                revert: true,      // will cause the event to go back to its
-                revertDuration: 0  //  original position after the drag
-            });
-
-        });
-
-
-        /* initialize the calendar
-         -----------------------------------------------------------------*/
-        var date = new Date();
-        var d = date.getDate();
-        var m = date.getMonth();
-        var y = date.getFullYear();
-
-        $('#calendar').fullCalendar({
-            header: {
-                left: 'prev,next today',
-                center: 'title',
-                right: 'month,agendaWeek,agendaDay'
-            },
-            editable: true,
-            droppable: true, // this allows things to be dropped onto the calendar
-            drop: function() {
-                // is the "remove after drop" checkbox checked?
-                if ($('#drop-remove').is(':checked')) {
-                    // if so, remove the element from the "Draggable Events" list
-                    $(this).remove();
-                }
-            },
-            events: [
-                {
-                    title: 'All Day Event',
-                    start: new Date(y, m, 1)
-                },
-                {
-                    title: 'Long Event',
-                    start: new Date(y, m, d-5),
-                    end: new Date(y, m, d-2),
-                },
-                {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: new Date(y, m, d-3, 16, 0),
-                    allDay: false,
-                },
-                {
-                    title: 'Homer task',
-                    start: new Date(y, m, d + 5, 19, 0),
-                    end: new Date(y, m, d + 6, 22, 30),
-                    allDay: false,
-                    backgroundColor: "#62cb31",
-                    borderColor: "#62cb31"
-                },
-                {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: new Date(y, m, d+4, 16, 0),
-                    allDay: false
-                },
-                {
-                    title: 'Meeting',
-                    start: new Date(y, m, d, 10, 30),
-                    allDay: false
-                },
-                {
-                    title: 'Lunch',
-                    start: new Date(y, m, d, 12, 0),
-                    end: new Date(y, m, d, 14, 0),
-                    allDay: false
-                },
-                {
-                    title: 'Birthday Party',
-                    start: new Date(y, m, d+1, 19, 0),
-                    end: new Date(y, m, d+1, 22, 30),
-                    allDay: false
-                },
-                {
-                    title: 'Click for Google',
-                    start: new Date(y, m, 28),
-                    end: new Date(y, m, 29),
-                    url: 'http://google.com/'
-                }
-            ],
-        });
-
-
-    });
-
-</script>
 </body>
 </html>

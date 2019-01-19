@@ -40,6 +40,13 @@ Route::get('calendario','CalendarioController@index')->name('calendario');
 Route::get('eventos', 'EventosController@index')->name('eventos');
 Route::get('empleos', 'EmpleosController@index')->name('empleos');
 
+Route::get('/misofertas', function(){
+  return view ('misofertas');
+});
+
+Route::get('/subiroferta', function(){
+  return view ('subiroferta');
+});
 
 
 
