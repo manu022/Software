@@ -56,7 +56,7 @@
                 <li><a class="page-scroll" page-scroll href="#contacto">Kontakte</a></li>
                 @if (Route::has('login'))
                 @auth
-                    <li><a href="{{ url('/perfil') }}">{{ auth()->user()->name }}</a></li>
+                    <li><a href="{{ url('/perfil') }}">{{ auth()->user()->name }} - PERFIL</a></li>
                     @else
                     <li><a class="navbar-brand" href="login" >Antre nan <small>(INGRESAR)</small></a></li>
                 @endauth

@@ -31,16 +31,17 @@
 <!--[if lt IE 7]>
 <p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-
 <!-- Header -->
 <div id="header">
     <div class="color-line">
     </div>
+    
     <div id="logo" class="light-version">
         <span>
             PRIOTELUS
         </span>
     </div>
+
     <nav role="navigation">
         <div class="header-link hide-menu"><i class="fa fa-bars"></i></div>
         <div class="small-logo">
@@ -107,7 +108,9 @@
 
 <!-- Main Wrapper -->
 <div id="wrapper">
-
+    @if ($errors->any())
+        <div class="alert alert-info">{{$errors->first()}}</div>
+    @endif
     <div class="content animate-panel">
         <div class="row">
             <div class="col-lg-12 text-center m-t-md">
