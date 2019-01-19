@@ -42,11 +42,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => 'localhost',
+            'host' => 'software2018s2.mysql.database.azure.com',
             'port' => env('DB_PORT', '3306'),
             'database' => 'login',
-            'username' => 'root',
-            'password' => 'software',
+            'username' => 'software2018s2@software2018s2',
+            'password' => 'Priotelus12',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
