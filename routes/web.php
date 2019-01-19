@@ -35,27 +35,15 @@ Route::get('/curriculum', function() {
   return view('curriculum');
 });
 
-Route::get('/eventos', function() {
-  return view('eventos');
-});
 
-Route::get('/empleos', function() {
-  return view('empleos');
-});
 
-Route::get('/perfil', function() {
-  return view('perfil');
-});
+Route::get('perfil', 'PerfilController@index')->name('perfil');
+Route::get('calendario','CalendarioController@index')->name('calendario');
+Route::get('eventos', 'EventosController@index')->name('eventos');
+Route::get('empleos', 'EmpleosController@index')->name('empleos');
 
-Route::get('/calendario', function() {
-  return view('calendario');
-});
 
-Route::get('/eventos', function() {
-  return view('eventos');
-});
 
-Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 
 Route::get('/pruebados', function(){
   return view ('pruebados');

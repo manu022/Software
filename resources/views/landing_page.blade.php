@@ -54,7 +54,13 @@
                 <li><a class="page-scroll" page-scroll href="#informacion">Enfòmasyon</a></li>
                 <li><a class="page-scroll" page-scroll href="#equipo">Ekip</a></li>
                 <li><a class="page-scroll" page-scroll href="#contacto">Kontakte</a></li>
-                <li><a class="navbar-brand" href="login" >Antre nan <small>(INGRESAR)</small></a></li>
+                @if (Route::has('login'))
+                @auth
+                    <li><a href="{{ url('/perfil') }}">{{ auth()->user()->name }}</a></li>
+                    @else
+                    <li><a class="navbar-brand" href="login" >Antre nan <small>(INGRESAR)</small></a></li>
+                @endauth
+                @endif
             </ul>
         </div>
     </div>

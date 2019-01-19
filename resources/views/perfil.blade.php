@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Page title -->
-    <title>Priotelus | Mi Perfil</title>
+    <title>Priotelus | Mi Perfil | {{ auth()->user()->name }}</title>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
@@ -58,23 +58,26 @@
             </a>
 
             <div class="stats-label text-color">
-                <span class="font-extra-bold font-uppercase">NOMBRE</span>
+                <span class="font-extra-bold font-uppercase">{{ auth()->user()->name }}</span>
             </div>
         </div>
 
         <ul class="nav" id="side-menu">
-            <li class="active">
+            <li>
                 <a href="home"> <span class="nav-label">LAKAY <small>(INICIO)</small></span></a>
             </li>
-            <li>
+            <li class="active">
                 <a href="perfil"> <span class="nav-label">PWOFIL MWEN <small>(MI PERFIL)</small></span></a>
             </li>
 
             <!-- PARA USUARIOS -->
+            @if ( auth()->user()->tipo_usuario  ==2 || auth()->user()->tipo_usuario  ==1)
             <li>
                 <a href="empleos"> <span class="nav-label">OFRI <small>(OFERTAS)</small></span></a>
             </li>
+            @endif
             <!-- PARA EMPRESAS -->
+            @if ( auth()->user()->tipo_usuario  ==3 || auth()->user()->tipo_usuario  ==1)
             <li>
                 <a href="#"><span class="nav-label">OFERTAS <small>(OFRI)</small></span><span class="fa arrow"></span> </a>
                 <ul class="nav nav-second-level">
@@ -82,7 +85,9 @@
                     <li><a href="calendario">Mis Ofertas <small>(Ofri mwen)</small></a></li>
                 </ul>
             </li>
-
+            @endif
+          
+            @if ( auth()->user()->tipo_usuario  ==2 || auth()->user()->tipo_usuario  ==1)
             <li>
                 <a href="#"><span class="nav-label">EVÈNMAN <small>(EVENTOS)</small></span><span class="fa arrow"></span> </a>
                 <ul class="nav nav-second-level">
@@ -90,9 +95,11 @@
                     <li><a href="calendario">Kalandriye <small>(Calendario)</small></a></li>
                 </ul>
             </li>
-
+            @endif
             <li>
-                <a href="landing_page.html"> <span class="nav-label">FÈMEN SESYON <small>(CERRAR SESIÓN)</small></span></a>
+                <form method="post" action="{{ route('logout') }}">
+                    {{ csrf_field() }}
+                    <button><span calss="nav-label">FÈMEN SESYON <small>(CERRAR SESIÓN)</small></span></button></form>
             </li>
         </ul>
     </div>

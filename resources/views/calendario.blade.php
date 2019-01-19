@@ -60,7 +60,7 @@
             </a>
 
             <div class="stats-label text-color">
-                <span class="font-extra-bold font-uppercase">NOMBRE</span>
+                <span class="font-extra-bold font-uppercase">{{ auth()->user()->name }}</span>
             </div>
         </div>
 
@@ -73,28 +73,37 @@
             </li>
 
             <!-- PARA USUARIOS -->
+
+            @if ( auth()->user()->tipo_usuario  ==2 || auth()->user()->tipo_usuario  ==1)
             <li>
                 <a href="empleos"> <span class="nav-label">OFRI <small>(OFERTAS)</small></span></a>
             </li>
+            @endif
             <!-- PARA EMPRESAS -->
-            <li>
+            @if ( auth()->user()->tipo_usuario  ==3 || auth()->user()->tipo_usuario  ==1)
+            <li class="active">
                 <a href="#"><span class="nav-label">OFERTAS <small>(OFRI)</small></span><span class="fa arrow"></span> </a>
                 <ul class="nav nav-second-level">
                     <li><a href="eventos">Subir Ofertas <small>(Upload ofri)</small></a></li>
                     <li><a href="calendario">Mis Ofertas <small>(Ofri mwen)</small></a></li>
                 </ul>
             </li>
-
-            <li>
+            @endif
+          
+            @if ( auth()->user()->tipo_usuario  ==2 || auth()->user()->tipo_usuario  ==1)
+            <li class="active">
                 <a href="#"><span class="nav-label">EVÈNMAN <small>(EVENTOS)</small></span><span class="fa arrow"></span> </a>
                 <ul class="nav nav-second-level">
                     <li><a href="eventos">Tout Moun <small>(Todos)</small></a></li>
                     <li><a href="calendario">Kalandriye <small>(Calendario)</small></a></li>
                 </ul>
             </li>
+            @endif
 
             <li>
-                <a href="landing_page.html"> <span class="nav-label">FÈMEN SESYON <small>(CERRAR SESIÓN)</small></span></a>
+                 <form method="post" action="{{ route('logout') }}">
+                    {{ csrf_field() }}
+                    <button><span calss="nav-label">FÈMEN SESYON <small>(CERRAR SESIÓN)</small></span></button></form>
             </li>
         </ul>
     </div>

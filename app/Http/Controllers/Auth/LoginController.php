@@ -35,7 +35,7 @@ class LoginController extends Controller
 	
 		if(Auth::attempt($credentials))
 		{
-			return redirect()->route('dashboard');
+			return redirect()->route('perfil');
 		}
 
 		return back()
