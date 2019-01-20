@@ -45,72 +45,73 @@
                 <h3>Kreyatè Currículum</h3>
                 <small>Ranpli nan done yo pou kreyasyon an</small>
             </div>
+            <form method = "post" action="crear-pdf.php"
             <div class="hpanel">
                 <div class="panel-body">
                         <form action="#" id="loginForm">
                             <div class="row text-center m-t-lg"><h3><span class="text-success">I. Enfòmasyon pèsonèl</span> (Datos Personales)</h3></div>
-                            </br> 
+                            </br>
                             <div class="form-group col-lg-12">
                                 <label>Non konplè</label><small>   (Nombre Completo)</small>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Nombre">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Rut</label>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Rut">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Dat nesans</label><small>   (Fecha de nacimiento)</small>
-                                <input type="" value="" id="" class="form-control" name="" placeholder="DD/MM/AAAA">
+                                <input type="" value="" id="" class="form-control" name="Fecha" placeholder="DD/MM/AAAA">
                             </div>
                             <div class="form-group col-lg-12">
                                 <label>Adrès</label><small>   (Dirección)</small>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Direccion">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Komin</label><small>   (Comuna)</small>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Comuna">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Kote nesans</label><small>   (Lugar de nacimiento)</small>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Nacimiento">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Nasyonalite</label><small>   (Nacionalidad)</small>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Nacionalidad">
                             </div>
-                            
+
                             <div class="form-group col-lg-6">
                                 <label>Sèks</label><small>   (Género)</small>
-                                <input type="" value="" id="" class="form-control" name="" placeholder="Masculino/Femenino">
+                                <input type="" value="" id="" class="form-control" name="Genero" placeholder="Masculino/Femenino">
                             </div>
 
                             <div class="form-group col-lg-6">
                                 <label>Imèl</label><small>   (Correo electrónico)</small>
-                                <input type="" value="" id="" class="form-control" name="">
+                                <input type="" value="" id="" class="form-control" name="Correo">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Nimewo telefòn</label><small>   (Número de teléfono)</small>
-                                <input type="" value="" id="" class="form-control" name="">
-                            </div>  
-                            
+                                <input type="" value="" id="" class="form-control" name="Telefono">
+                            </div>
+
                             <div class="row text-center m-t-lg"><h3><span class="text-success">II. Akademik Istorik</span> (Antecedentes Académicos)</h3></div>
-                            </br> 
+                            </br>
                             <div class="form-group col-lg-12">
                                 <label>Istorik mwen</label><small>   (Mis Antecedentes)</small>
                                 <textarea class="form-control" rows="5" name="message" placeholder="2005-2010 / Lekòl / Vil, Peyi"></textarea>
                             </div>
 
                             <div class="row text-center m-t-lg"><h3><span class="text-success">III. Eksperyans travay</span> (Experiencia Laboral)</h3></div>
-                            </br> 
+                            </br>
                             <div class="form-group col-lg-12">
                                 <label>Eksperyans mwen</label><small>   (Mi Experiencia)</small>
-                                <textarea class="form-control" rows="5" name="message" placeholder="2005-2010 / Konpayi, Kago / Vil, Peyi"></textarea>
+                                <textarea class="form-control" rows="5" name="j" placeholder="2005-2010 / Konpayi, Kago / Vil, Peyi"></textarea>
                             </div>
                             <div class="text-center">
                                 <button class="btn btn-success" href="#">Jebere <small>(Generar)</small></button>&nbsp;&nbsp;
                                 <a class="btn btn-default" href="curriculum">Anile <small>(Cancelar)</small></a>
                             </div>
-
+                          </form>
                 </div>
             </div>
         </div>
