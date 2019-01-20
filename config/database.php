@@ -42,11 +42,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => 'software2018s2.mysql.database.azure.com',
+            'host' => 'us-cdbr-iron-east-01.cleardb.net',
             'port' => env('DB_PORT', '3306'),
-            'database' => 'login',
-            'username' => 'software2018s2@software2018s2',
-            'password' => 'Priotelus12',
+            'database' => 'heroku_3bef1d3723f0d19',
+            'username' => 'b4ea14fba0c668',
+            'password' => '1317de6b',
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
