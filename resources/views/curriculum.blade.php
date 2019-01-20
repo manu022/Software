@@ -81,17 +81,18 @@
                             </div>
 
                             <div class="form-group col-lg-6">
-                                <label>Sèks</label><small>   (Género)</small>
-                                <input type="" value="" id="" class="form-control" name="Genero" placeholder="Masculino/Femenino">
+                                <label>Sèks</label><small>   (Género)</small><br>
+                                <label>Masculino</label><input type="radio" value="Masculino" id="" class="form-control" name="Genero" placeholder="Masculino" checked="" required="">
+                                <label>Femenino</label><input type="radio" value="Femenino" id="" class="form-control" name="Genero" placeholder="Femenino">
                             </div>
 
                             <div class="form-group col-lg-6">
                                 <label>Imèl</label><small>   (Correo electrónico)</small>
-                                <input type="" value="" id="" class="form-control" name="Correo">
+                                <input type="" value="{{auth()->user()->email}}" id="" class="form-control" name="Correo">
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Nimewo telefòn</label><small>   (Número de teléfono)</small>
-                                <input type="" value="" id="" class="form-control" name="Telefono">
+                                <input type="" value="{{auth()->user()->telefono}}" id="" class="form-control" name="Telefono">
                             </div>
 
                             <div class="row text-center m-t-lg"><h3><span class="text-success">II. Akademik Istorik</span> (Antecedentes Académicos)</h3></div>

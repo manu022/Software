@@ -45,16 +45,26 @@
             </div>
             <div class="hpanel">
                 <div class="panel-body">
-                        <form method="post" action="{{ route('register') }}" id="loginForm">
+                        <form method="post" action="{{ route('registro_empresa') }}" id="loginForm">
                             {{ csrf_field() }}
                             <div class="row">
                             <div class="form-group col-lg-12">
                                 <label>Nombre de Empresa</label>
-                                <input type="text" value="{{ old('name') }}" id="name" class="form-control" name="name" required>
+                                <input type="text" value="{{ old('name') }}" id="name" class="form-control {{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="name" required>
+                                @if ($errors->has('nombre'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('nombre') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Rut Empresa o Representante</label>
-                                <input type="" value="{{ old('rut') }}" id="rut" class="form-control" name="rut" required>
+                                <input type="" value="{{ old('rut') }}" id="rut" class="form-control{{ $errors->has('rut') ? ' is-invalid' : '' }}" name="rut" required>
+                                @if ($errors->has('rut'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('rut') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Celular</label>
@@ -90,6 +100,7 @@
                             <div class="form-group col-lg-6">
                                 <label>Repetir Dirección de Correo Electronico</label>
                                 <input type="email" value="" id="email-confirm" class="form-control" name="email_confirmation" required>
+
                             </div>
                             
                             <div class="checkbox col-lg-12">

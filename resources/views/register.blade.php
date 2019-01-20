@@ -50,11 +50,21 @@
                             <div class="row">
                             <div class="form-group col-lg-12">
                                 <label>Nombre de usuario</label>
-                                <input type="text" value="{{ old('name') }}" id="name" class="form-control" name="name" required>
+                                <input type="text" value="{{ old('name') }}" id="name" class="form-control{{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="name" required>
+                                @if ($errors->has('nombre'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('nombre') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Rut</label>
-                                <input type="" value="{{ old('rut') }}" id="rut" class="form-control" name="rut" required>
+                                <input type="" value="{{ old('rut') }}" id="rut" class="form-control{{ $errors->has('rut') ? ' is-invalid' : '' }}" name="rut" required>
+                                @if ($errors->has('rut'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('rut') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Celular</label>
@@ -76,7 +86,12 @@
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Repetir Contraseña</label>
-                                <input type="password" value="" id="password-confirm" class="form-control" name="password_confirmation" required>
+                                <input type="password" value="" id="password-confirm" class="form-control{{ $errors->has('password-confirm') ? ' is-invalid' : '' }}" name="password_confirmation" required>
+                                @if ($errors->has('password-confirm'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password-confirm') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Dirección de Correo Electronico</label>
@@ -89,7 +104,12 @@
                             </div>
                             <div class="form-group col-lg-6">
                                 <label>Repetir Dirección de Correo Electronico</label>
-                                <input type="email" value="" id="email-confirm" class="form-control" name="email_confirmation" required>
+                                <input type="email" value="" id="email-confirm" class="form-control{{ $errors->has('email-confirm') ? ' is-invalid' : '' }}" name="email_confirmation" required>
+                                @if ($errors->has('email-confirm'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email-confirm') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                             
                             <div class="checkbox col-lg-12">

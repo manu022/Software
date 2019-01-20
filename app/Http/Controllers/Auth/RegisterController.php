@@ -27,6 +27,12 @@ class RegisterController extends Controller
         return view('register');
     }
 
+    public function showRegisterForm_Empresa()
+    {
+        return view('registro_empresa');
+    }
+
+
     /**
      * Where to redirect users after registration.
      *
