@@ -39,8 +39,8 @@ Route::get('calendario','CalendarioController@index')->name('calendario');
 Route::get('eventos', 'EventosController@index')->name('eventos');
 Route::get('empleos', 'EmpleosController@index')->name('empleos');
 
-Route::get('/misofertas', 'MisOfertasController@index')->name('misofertas');
-Route::get('/subiroferta', 'OfertasController@index')->name('subiroferta');
+Route::get('misofertas', 'MisOfertasController@index')->name('misofertas');
+Route::get('subirofertas', 'OfertasController@index')->name('subirofertas');
 
 
 

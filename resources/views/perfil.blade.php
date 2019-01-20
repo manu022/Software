@@ -82,8 +82,8 @@
             <li>
                 <a href="#"><span class="nav-label">OFERTAS <small>(OFRI)</small></span><span class="fa arrow"></span> </a>
                 <ul class="nav nav-second-level">
-                    <li><a href="eventos">Subir Ofertas <small>(Upload ofri)</small></a></li>
-                    <li><a href="calendario">Mis Ofertas <small>(Ofri mwen)</small></a></li>
+                    <li><a href="subirofertas">Subir Ofertas <small>(Upload ofri)</small></a></li>
+                    <li><a href="misofertas">Mis Ofertas <small>(Ofri mwen)</small></a></li>
                 </ul>
             </li>
             @endif
