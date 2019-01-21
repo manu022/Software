@@ -43,7 +43,6 @@
         <div class="col-md-12">
             <div class="text-center m-b-md">
                 <h3>POR FAVOR INICIE SESIÓN</h3>
-                <small>¡La mejor aplicación del mundo!</small>
             </div>
             <div class="hpanel">
                 <div class="panel-body">

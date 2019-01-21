@@ -52,7 +52,6 @@
                 <li><a class="page-scroll" page-scroll href="#ofertas">Ofri</a></li>
                 <li><a class="page-scroll" page-scroll href="#eventos">Evènman</a></li>
                 <li><a class="page-scroll" page-scroll href="#informacion">Enfòmasyon</a></li>
-                <li><a class="page-scroll" page-scroll href="#equipo">Ekip</a></li>
                 <li><a class="page-scroll" page-scroll href="#contacto">Kontakte</a></li>
                 @if (Route::has('login'))
                 @auth
@@ -89,7 +88,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1><span class="text-success">Dènye ofrann</span></h2> <h4>Últimas Ofertas</h4>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
 
@@ -180,7 +178,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1><span class="text-success">Evènman</span></h2> <h4>Eventos</h4>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
 
@@ -295,7 +292,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1><span class="text-success">Enformasyon</span></h2> <h4>Información</h4>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
 
@@ -309,10 +305,7 @@
                             <div class="m">
                                 <i class="pe-7s-culture fa-5x"></i>
                             </div>
-                            <p class="small">
-                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <button href="http://www.embajadahaiti.cl/" target="_blank" class="btn btn-warning btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></button>
+                            <a href="http://www.embajadahaiti.cl/" class="btn btn-info btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></a>
                         </div>
                     </div>
                 </div>
@@ -326,10 +319,7 @@
                             <div class="m">
                                 <i class="pe-7s-id fa-5x"></i>
                             </div>
-                            <p class="small">
-                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <button href="https://www.gob.cl/nuevaleydemigracion/" target="_blank" class="btn btn-warning2 btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></button>
+                            <a href="https://www.gob.cl/nuevaleydemigracion/" class="btn btn-info btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></a>
                         </div>
                     </div>
                 </div>
@@ -343,10 +333,7 @@
                             <div class="m">
                                 <i class="pe-7s-user fa-5x"></i>
                             </div>
-                            <p class="small">
-                                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <button href="https://www.chileatiende.gob.cl/fichas/26501-derechos-de-los-trabajadores" target="_blank" class="btn btn-danger btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></button>
+                            <a href="https://www.chileatiende.gob.cl/fichas/26501-derechos-de-los-trabajadores" class="btn btn-info btn-sm"><h5>Ale nan sit la</h5><small>(Visitar el sitio)</small></a>
                         </div>
                     </div>
                 </div>
@@ -356,52 +343,6 @@
     </div>
 </section>
 
-<section id="equipo" class="bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="row">
-            <div class="col-lg-12">
-                <h1><span class="text-success">Ekip nou an</span></h2> <h4>Nuestro Equipo</h4>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
-            </div>
-        </div>
-
-        <div class="row m-t-lg text-center">
-            <div class="col-sm-6">
-                <div class="team-member">
-                    <img src="images/a2.jpg" class="img-circle img-small" alt="">
-                    <h4><span>Mauricio</span> González</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="team-member">
-                    <img src="images/a5.jpg" class="img-circle" alt="">
-                    <h4><span>Manuel</span> Grandón</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row m-t-lg text-center">
-            <div class="col-sm-6">
-                <div class="team-member">
-                    <img src="images/a2.jpg" class="img-circle img-small" alt="">
-                    <h4><span>Camilo</span> Monares</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="team-member">
-                    <img src="images/a5.jpg" class="img-circle" alt="">
-                    <h4><span>Daniel</span> Hernandez</h4>
-                    <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
-                </div>
-            </div>
-        </div>    
-    </div>
-</section>
-
-
 
 <section id="contacto" class="bg-light">
     <div class="container">
@@ -409,7 +350,6 @@
             <div class="row">
             <div class="col-lg-12">
                 <h1><span class="text-success">Kontakte</span></h2> <h4>Contacto</h4>
-                <p>Lorem Ipsum available, but the majority have suffered alteration euismod. </p>
             </div>
         </div>
 
