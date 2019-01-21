@@ -79,7 +79,7 @@
             <br>
             <br>
             <br>
-            <a href="curriculum" class="btn btn-success btn-lg"><h4>Kreye ou Curriculum</h4><small>Crea tu currículum</small></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="empleos" class="btn btn-success btn-lg"><h4>Voye travay</h4><small>Subir oferta laboral</small></a>
+            <a href="curriculum" class="btn btn-success btn-lg"><h4>Kreye ou Curriculum</h4><small>Crea tu currículum</small></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="subirofertas" class="btn btn-success btn-lg"><h4>Voye travay</h4><small>Subir oferta laboral</small></a>
         </div>
     </div>
 </header>
