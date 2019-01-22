@@ -354,7 +354,7 @@
         </div>
 
         <div class="row text-center m-t-lg">
-                <form class="form-horizontal" role="form" method="post" action="#">
+                <form class="form-horizontal" role="form" action="#">
                     <div class="form-group">
                         <label for="name" class="col-sm-3 control-label">Non <small>(Nombre)</small></label>
 
